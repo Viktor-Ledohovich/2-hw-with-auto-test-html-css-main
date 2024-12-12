@@ -50,6 +50,7 @@ header span {
   /* Стили для изображения в первой секции */
   width: 715px;
   height: 508px;
+  fill: #fafaff;
 }
 
 .about-section {
@@ -57,7 +58,7 @@ header span {
   width: 1440px;
   height: 883px;
   fill: #fff;
-  padding: 80px 0px;
+  padding: 100px 0px;
 }
 
 select {
