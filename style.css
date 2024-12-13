@@ -71,9 +71,9 @@ select {
   padding: 5px;
   appearance: none;
   overflow: hidden;
-  background: url("./assets/images/ep_arrow-down.svg") no-repeat right;
-  background-position-x: calc(100% - 8px);
+  background: url("./assets/images/ep_arrow-down.svg") no-repeat right 15px top 50%;  
 }
+
 
 .section-title {
   /* Стили для заголовков во второй секции */
@@ -89,6 +89,7 @@ select {
   background: #fff;
   font-weight: 400;
   font-size: 16px;
+  padding-left: 0px 20px;
 
 }
 
@@ -150,9 +151,9 @@ td {
 
 footer {
   /* Стили для футера */
-  width: 1440px;
-  height: 70px;
+
   background: rgba(163, 167, 255, 0.3);
+  padding: 26px 0px;
 }
 
 .footer-link {
@@ -160,4 +161,5 @@ footer {
   font-weight: 400;
   font-size: 14px;
   color: #2965f1;
+  text-decoration: none;
 }
