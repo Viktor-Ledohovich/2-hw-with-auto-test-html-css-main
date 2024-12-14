@@ -141,6 +141,7 @@ table {
   width: 300px;
   height: 196px;
   border-collapse: collapse;
+  border: 1px solid rgba(48, 48, 48, 0.3);
 }
 
 th,
