@@ -88,13 +88,15 @@ select {
   background: #fff;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 0px 20px;
+  /* padding-left: 20px; */
+  list-style-type: none;
 
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
   border-radius: 5px;
+  padding-left: 20px;
 }
 
 .label {
@@ -139,7 +141,7 @@ table {
   /* Стили для таблицы */
   width: 300px;
   height: 196px;
-  border-style: solid;
+  border: 1px solid rgba(48, 48, 48, 0.3);
   border-collapse: collapse;
 }
 
@@ -150,7 +152,7 @@ td {
   font-size: 14px;
   text-align: center;
   padding: 15px;
-  border-style: solid;
+  border: 1px solid rgba(48, 48, 48, 0.3);
 }
 
 footer {
