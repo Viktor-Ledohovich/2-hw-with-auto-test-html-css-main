@@ -14,7 +14,7 @@ header {
   /* Стили для хедера */
   height: 70px;
   background-color: #2965f1;
-  padding: 60px 0;
+  padding: 23px 0;
 }
 
 header span {
@@ -138,17 +138,18 @@ select {
 
 table {
   /* Стили для таблицы */
-  width: 300px;
+  /* font-weight: 700;
+  font-size: 14px; */
+  width: 350px;
   height: 196px;
   border-collapse: collapse;
-  border: 1px solid rgba(48, 48, 48, 0.3);
 }
 
 th,
 td {
   /* Стили для ячеек таблицы */
-  font-weight: 700;
-  font-size: 14px;
+  /* font-weight: 400;
+  font-size: 14px; */
   padding: 12px 15px;
   border: 1px solid rgba(48, 48, 48, 0.3);
 }
