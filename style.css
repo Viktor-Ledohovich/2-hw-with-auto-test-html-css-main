@@ -55,8 +55,6 @@ header span {
 
 .about-section {
   /* Стили для второй секции */
-  width: 1440px;
-  height: 883px;
   fill: #fff;
   padding: 100px 0px;
 }
@@ -85,10 +83,10 @@ select {
   /* Стили для маркированного списка во второй секции */
   width: 80px;
   height: 57px;
-  background: #fff;
+  /* background: #fff; */
   font-weight: 400;
   font-size: 16px;
-  padding: 0;
+  padding-left: 20px;
   list-style-type: none;
 }
 
