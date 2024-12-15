@@ -70,7 +70,8 @@ select {
   border: 1px solid rgba(48, 48, 48, 0.3);
   appearance: none;
   overflow: hidden;
-  background: url("./assets/images/ep_arrow-down.svg") no-repeat right 15px top 50%;  
+  background: url("./assets/images/ep_arrow-down.svg") no-repeat right 15px top
+    50%;
 }
 
 .section-title {
@@ -89,7 +90,6 @@ select {
   font-size: 16px;
   padding: 0;
   list-style-type: none;
-
 }
 
 .books-list {
@@ -138,8 +138,8 @@ select {
 
 table {
   /* Стили для таблицы */
-  /* font-weight: 700;
-  font-size: 14px; */
+  /* font-weight: 700;  */
+  font-size: 16px;
   width: 350px;
   height: 196px;
   border-collapse: collapse;
