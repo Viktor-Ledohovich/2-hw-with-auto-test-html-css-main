@@ -83,17 +83,16 @@ select {
   /* Стили для маркированного списка во второй секции */
   width: 80px;
   height: 57px;
-  /* background: #fff; */
+  background: #fff;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 20px;
   list-style-type: none;
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
   border-radius: 5px;
-  padding: 0 0 0 20px;
+  padding-left: 20px;
 }
 
 .label {
@@ -111,6 +110,8 @@ select {
   height: 36px;
   background: rgba(255, 255, 255, 0);
   padding: 9px 14px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .btn {
@@ -136,8 +137,8 @@ select {
 table {
   /* Стили для таблицы */
   /* font-weight: 700;  */
-  font-size: 16px;
-  width: 350px;
+  font-size: 14px;
+  width: 300px;
   height: 196px;
   border-collapse: collapse;
 }
@@ -145,8 +146,6 @@ table {
 th,
 td {
   /* Стили для ячеек таблицы */
-  /* font-weight: 400;
-  font-size: 14px; */
   border: 1px solid #95a1bb;
   width: 113px;
   height: 40px;
