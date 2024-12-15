@@ -86,13 +86,17 @@ select {
   background: #fff;
   font-weight: 400;
   font-size: 16px;
-  list-style-type: none;
+  list-style-image: none;
+  padding-left: 20px;
+  list-style-image: url(./assets/images/solar_map-arrow-up-bold.svg);
 }
 
 .books-list {
   /* Стили для нумерованного списка во второй секции */
   border-radius: 5px;
   padding-left: 20px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .label {
@@ -136,7 +140,7 @@ select {
 
 table {
   /* Стили для таблицы */
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 14px;
   width: 300px;
   height: 196px;
